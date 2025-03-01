@@ -28,6 +28,7 @@ int main() {
   }
 }
 
+//partition function
 int partition(int a[], int s, int e) {
   //mid index
   int mid = s + (e - s) / 2;
@@ -44,6 +45,7 @@ int partition(int a[], int s, int e) {
   return red; //return index where pivot is located
 }
 
+//quick sort function
 void quickSort(int a[], int start, int end) {
   if (start >= end) { //if start goes over its boundary
     return;
